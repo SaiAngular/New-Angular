@@ -1,19 +1,45 @@
-<h1>Welcome to Angular</h1>
+<!-- <h1>Welcome to Angular</h1> -->
 
-<p>Product List </p>
-<p>Search <input type="text"></p>
+<h1 style="text-align:center;"> Products List</h1>
+<p><strong>Search <input type="text"></strong></p>
+
 
 <tr>
    <th> <button type="button" >Show image</button></th>
+   
    <th>  Name </th>
-   <th>  Price </th>
+   <th> Avaliable</th>
+   <th>  Price </th><br>
    <th>  Rating </th>
-
+     
 </tr>
+
+<tbody>
+
+    <tr *ngFor='let product of products'>
+        <!-- <td>
+
+            <img *ngIF="showImage"
+            [src]="products.imageUrl"
+            [title]="products.productName"
+            [style.width.px]="imageWidth"
+            [style.margin.px]="imageMargin">
+        </td> -->
+        
+        <td> {{product.image}}</td>
+        <td> {{product.productName}}</td>
+        <td> {{product.productDate}}</td>
+        <td> {{product.price}}</td>
+        <td> {{product.rating}}</td>
+
+
+    </tr>
+</tbody>
 
 <tr>
     <td>   </td>
     <td> Books</td>
+    <td> 29-mar-2021</td>
     <td> 1000</td>
     <td> 5 </td>
 </tr>
@@ -21,12 +47,14 @@
 <tr>
     <td>   </td>
     <td> Dress</td>
+    <td> 14-sep-2020</td>
     <td> 2000</td>
     <td> 4 </td>
 </tr>
 <tr>
     <td>   </td>
     <td> Food</td>
+    <td> 13-aug-2004</td>
     <td> 4000</td>
     <td> 6 </td>
 </tr>
@@ -34,21 +62,18 @@
 <tr>
     <td>   </td>
     <td> Bike</td>
+    <td> 03-jan-2010</td>
     <td> 7000</td>
     <td> 3 </td>
 </tr>
 <tr>
     <td>   </td>
     <td> Movie</td>
+    <td> 31-dec-2017</td>
     <td> 500</td>
     <td> 8 </td>
-</tr>
+</tr> -->
 
-<tr>
-    <td>   </td>
-    <td> {{product.bus }}</td>
-    <td> {{product.ticket}}</td>
-    <td> {{product.km }}</td>
-</tr>
+
 
 

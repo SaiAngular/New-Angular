@@ -5,18 +5,26 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './productlist.component.html',
   styleUrls: ['./productlist.component.css']
 })
-export class ProductlistComponent implements OnInit {
+export class ProductlistComponent  {
+pageTitle:string = "Product List";
+imageWidth: number=50;
+imageMargin:number=3;
+// showImage:boolean=false;
 
- product={
-    bus:'RTC',
-    ticket:200,
-    km:5,
-};
+
+ products: any[] = [
   
-  constructor() { }
+  {
+    
+    "productName":"Television",
+    "productDate":"Sep 16,2022",
+    "price":200,
+    "rating":5,
+   
+  }];
+  
 
-  ngOnInit(): void {
-  }
-
+  
+  
 }
 
