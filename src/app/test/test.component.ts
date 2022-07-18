@@ -24,10 +24,7 @@ export class TestComponent {
   //  alert('Saikiran'); 
   // }
   
-//  name:string="sai";
+  // name1:string=" Kiran ";
 
 
-  }
-
-
-
+}
