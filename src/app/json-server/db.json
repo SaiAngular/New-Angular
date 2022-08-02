@@ -1,36 +1,51 @@
 {
     "products": [
-        {
-            "productId": 3,
-            "productName": "Garden Cart",
-            "productCode": "GDN-0023",
-            "releaseDate": "March 18, 2021",
-            "description": "15 gallon capacity rolling garden cart",
-            "price": 32.99,
-            "starRating": 4.2,
-            "imageUrl": "assets/images/garden_cart.png"
-          },
-          {
-            "productId": 3,
-            "productName": "Garden Cart",
-            "productCode": "GDN-0023",
-            "releaseDate": "March 18, 2021",
-            "description": "15 gallon capacity rolling garden cart",
-            "price": 32.99,
-            "starRating": 4.2,
-            "imageUrl": "assets/images/garden_cart.png"
-          },
-          {
-            "productId": 3,
-            "productName": "Garden Cart",
-            "productCode": "GDN-0023",
-            "releaseDate": "March 18, 2021",
-            "description": "15 gallon capacity rolling garden cart",
-            "price": 32.99,
-            "starRating": 4.2,
-            "imageUrl": "assets/images/garden_cart.png"
-          }
-    ]
-
- }
+      {
+              "productId":1,
+              "productName":" Chiken Soup",
+              "productCode":" CS 01",
+              "releaseDate":"Jan 3 - 2010",
+              "price":100,
+              "rating":1.5,
+              "imageUrl":"assets/chikensoup.jpg"
+            },
+            {
+              "productId":2,
+              "productName":"Chiken Biryani",
+              "productCode":"CK 01",
+              "releaseDate":"Feb 29, 2016",
+              "price":250,
+              "rating":4.9,
+              "imageUrl":"assets/chikenbiryani.jpg"
+            },
+            {
+              "productId":3,
+              "productName":"Chiken Legs",
+              "productCode":"CK 02",
+              "releaseDate":"Mar 11, 2017",
+              "price":180,
+              "rating":2.2,
+              "imageUrl":"assets/chikenlegs.jpg"
+            },
+            {
+              "productId":4,
+              "productName":"Chiken Roast",
+              "productCode":"CK 03",
+              "releaseDate":"April 21 , 2018",
+              "price":240,
+              "rating":4.5,
+              "imageUrl":"assets/chikenroast.jpg"
+            },
+            {
+              "productId":5,
+              "productName":"Chiken Lolipop",
+              "productCode":"CK 04",
+              "releaseDate":"May 16, 2019",
+              "price":300,
+              "rating":1.7,
+              "imageUrl":"assets/chikenlolipop.jpeg"
+            }
+          ]
+}
   
+

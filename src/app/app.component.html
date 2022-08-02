@@ -1,6 +1,27 @@
-<!-- <h1>Hi Welcome</h1> -->
 <!-- <app-test></app-test> -->
-<app-productlist></app-productlist>
-
-
+ <!-- <app-productlist></app-productlist> -->
+<!-- <app-demolist></app-demolist> -->
 <!-- <app-demo>  </app-demo> -->
+
+<style>
+    .data
+{ text-align: center;
+  text-emphasis-color: brown;
+  color: slateblue;
+  margin-right: 16px;
+
+}
+    </style> 
+    
+
+<h3 class="data" > Welcome to Angular Project</h3>
+<nav>
+ <div style="text-align:center">
+    <a routerLink='/home'> Home &nbsp; </a>
+    <a routerLink='/productlist'> Product-List &nbsp; </a>
+    <a routerLink='/test'> Help &nbsp; </a>
+    <a routerLink='/demolist' target="_blank"> Services</a>
+</div>
+</nav>
+
+<router-outlet></router-outlet>

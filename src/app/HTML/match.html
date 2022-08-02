@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket</title>
+    <link rel="icon" type="image/jpg"
+        href=" https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200/lsci/db/PICTURES/CMS/86300/86316.jpg">
+
+    <style>
+        body {
+            margin: 0;
+            background-image: "https://image.shutterstock.com/image-vector/blue-lime-green-blurred-vector-260nw-1285539721.jpg" width="100%";
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            background-color: darkolivegreen;
+            color: white;
+        }
+
+        .left {
+            float: left;
+            width: 180px;
+            margin: 40;
+            border: 30px;
+        }
+
+        .content {
+            align-content: center;
+            text-align: center;
+            margin-left: 250px;
+            border-left: 15px solid rgb(19, 15, 10);
+
+        }
+
+
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: darkolivegreen;
+            color: white;
+            text-align: left;
+            height: 50px;
+        }
+
+        table,
+        tr,
+        td,
+        th {
+            border: 2px solid skyblue;
+            border-spacing: 10px;
+            border-collapse: collapse;
+            padding: 10px;
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src=" https://imgeng.jagran.com/images/2022/apr/BCCI1648882708944.jpg" height="75" width="75">
+            <h1 style="color:orangered">Cricket</h1>
+            <p>Welcome to International Cricket </p>
+        </header>
+        <aside class="left">
+
+            <figure>
+                <img src=" https://upload.wikimedia.org/wikipedia/en/thumb/2/26/2011_Cricket_World_Cup_Logo.svg/1200px-2011_Cricket_World_Cup_Logo.svg.png "
+                    width="200">
+                <figcaption>
+                    <p> fig: ICC World Cup 2011 </p>
+                </figcaption>
+            </figure>
+            <div>
+
+                <p style="color:brown"> World Cup </p>
+            </div>
+
+        </aside>
+        <main class="content">
+            <article>
+                <table>
+                    <tbody>
+                        <thead>
+                            <th>S.No</th>
+                            <th>Match</th>
+                            <th>Date</th>
+                            <th>Venue</th>
+                        </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>3rd March 2011</td>
+                            <td><img src=" https://cdn.britannica.com/97/1597-004-05816F4E/Flag-India.jpg" width=80>
+                               v/s<img src=" https://cdn.britannica.com/46/3346-004-D3BDE016/flag-symbolism-Pakistan-design-Islamic.jpg" width=90>
+                            </td>
+                            <td>Wankande Stadium ,Mumbai</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>5rd March 2011</td>
+                            <td><img src=" https://media.istockphoto.com/vectors/flagunited-kingdom-flag-vector-id1211686337?k=20&m=1211686337&s=612x612&w=0&h=irewSfrd_QbxxmNWMpqpHrdf0pBVjnKoOJnkvonjz3g="
+                                    width=80>v/s<img src=" data:image/jpeg;base64,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" height="53" width="80">
+                                    </td>
+                                    <td>Chepak Stadium , Chennai</td>       
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>7th March 2011</td>
+                            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1200px-Flag_of_South_Africa.svg.png"
+                                    width=80>v/s<img src=" https://cdn.britannica.com/97/1597-004-05816F4E/Flag-India.jpg" width=80> </td>
+                                    <td>Chenna Swamy Stadium , Banglore</td>  
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>9th Marcg 2011</td>
+                            <td><img src=" data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPDw8PDg8QDxAQEA8WDg8QEBUVDg8VFRUWFhUVFRUYHSggGBomHhUVIzEiJSkwLi46Fx8zODMtNygtLisBCgoKDg0OFxAQGysmICUtLS0tListKy0tNS0rLS0tLS0tLi0tLS4tLS0tLS0tLS0tLS4rKy0tLS0rKy0tLS0tLf/AABEIAJ8BPgMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAACAwEEBQYHAAj/xABNEAABAwICBQgFBwkFCAMAAAABAAIDBBEFIQYSEzFhByJBUVRxgZMUMmKR0SNCUnKxs9IlQ1N0gpShstNEksLh8BUXJDM0c6LBFjWD/8QAGwEAAgMBAQEAAAAAAAAAAAAAAgMAAQUEBgf/xAA3EQACAQICBgkDAwMFAAAAAAAAAQIDEQQhEjFRYXHwBSJBgZGhscHRMnLhE1KiFGLxBiMkMzT/2gAMAwEAAhEDEQA/ANZw3SCsoXbKVrntbvima64HsneP4hb3gek1LVWaHbOQ/m5bC59l25328FzzDdNddohxOBtXF0SgBtQziDkD4WPErK//ABmGrYZcJqWzgZup3nVqGcLG38QO8oalCtR3o04VcHisp9SW1aueNvuN/wAY0bpqxurUQtcR6rxzZW9zxn4blzzH+TOohu+jd6Sz9G6zahv+F/hY8FNhuk1dh79lO1z2N3xTghzRwJzA94W/4BpZSVdgH7KQ/m5bAk+y7c77eCZRxjjkn3MRiujKtJaTV47Vz+N5wOWFzHOY9rmPabOY4EOaeog5hGy+j8b0apa5urVQteQObIObMz6rxn4buC5ppHyV1MF5KJ3pUY/Nus2paP5X+FjwWpSxdOWUsn5eJkTotZrM56Ar3Bh/xNN/34P52q3licxzmPa5j2mzmPBa9p6iDmFd4J/1VL+sQfeNXY1k+AhazuPKBDbDao8IvvWLjYau48orLYXWfVi++jXEmrydZ9ZcD3nQcb4eX3v0iHVXcqqL8nSfqT/uSuILvVWz8mSfqL/uSiw2vwEdPq0aXGXsfN7QpAFRoV3h9DLUPEUEb5ZDuYxpJ7z1DiV69o+fkACuqChlneI4I3yvO5rBc956hxK3Kl0IhpWtkxepERIu2kgIdUO4Ei9vDL2grmfSnZs2GGQNo4ibazQDPIdwJPX7zxWdX6SpU8o5vy54ZbzWwPQmJxWaVo7Xz6X3lpS6Gw0rRJitQI72LaaE60x4Ejd4Ze0FdTaSajdhh0DaWI2Gs0XnkO4Xd1+88VcYRoXV1J2lS4wh2ZMtzM7jqk38XEdxW94No7TUgBiju+2cj7OlPj83wssmriK1f6nZc87d5t06HR+B1L9Sflz48E0aHhOhlVUnaVBMIdmXSXdM/wDZOY73e5bLiWjtNSYfWGKO7/R5flH86Q809PR4WWVxzSSlohaaS8lsoWc6U+Hze82XOdI9Oqira+KNohgcCHNHOke09DnHcOAHiU/C4Oc2pJZbX7bTO6Q6YlJOM5W/tj7/AJ8DTiESFMQgQvRHk0yMhULVIQqEKrB3IiESFIQvEKrBXIiESFIQqEKrBXIiFQhMhespYIiIVLJLypoK5GQqJFUKFoIBCoQkVQoWgrhIRISKKGwQSECpCg5Aw0WLVcU8z43NfG90b2+q9ji17e5wzC6HFyWNP9td+7j8auWckrT/AG537sP6iSsTS2+T+DrcJGIw7T3asEGK07a2LcJmgNqY+IIsCe7VPesmdF6esY6bB6pk7Rm6nedWoj4WNv4gd5V03kgb2937sP6iuKXklMb2yRYlLG9vqvZBqvb3OElwuSvSwtXO9nwfwduExuJwz6jy2dnPCz3mNwvSuvw52yna57W74ZmnXYPZJzA944Louj2mVHWWaH7KU/mpSASfZdud9vBOm0edJDsMRljrwBzJHU4inbx12vOfEAHvWv1PJXE55dFVSRNO5pha9w/au248FnaFSm7J3XO01HXwOJV6q/TltWafcvhb5dht2O6M0le3VqoGvIFmyjmzM+q8Z24buC5xXcldRTVEE1HJ6TCyeFzmPs2oY0PaSfovsLnKx4LoGj2AVVHZpr3VEQ/NzU97D2HbW7f4jgtka1ddHEVILLVsZkV6NPSspKW9XXk0n7bzWuUcfkus+rF99GuHNXdeUgfkqs+rD99GuFBZ9f6j13QP/ml979IlQvoGaFz8OcxgLnPotVrRvcTDYAeK4AF9E08Tn0bGNcY3OpmBsgGbCYwA4cRv8EeHdmzn/wBQfTS4y9jjtJoNBSNbLjFS2G4BbRwkOqHcCRfV6ssvaCu59Ldmz0bCqdtFCSAHAA1Mp3DnZ5+88VsUnJgHvL31z3lxu8uhu53eTIc+9bPgei9JRgGGO8ls5ZOdKeux+b3NsuitXr1313ZbDNoR6MwcdKP+5Lg0vNez4I57g+g9ZVHa1TnRNcbudJrGd/HVJv4uI7it+wXRqlpADFHeS2cslnSnuPze4WWbssPj2GVVSNSGtNIwjPZw3lP/AOheLeAB4qqdKKezfn7I58X0lXrq0nl+1ZLzefe7bEiLH9JqShFp5QZLZQs50x8Pm95sub49yg1VRdlP/wALEfoG8rhxf839m3eVmzyVNJJNe8kkkkwAknrJ11X/AHWN7a7yB+NadH+khm5Xe9P0t8mFWeKnlFWW5r1uc2uSSSSSTck7yespBdIHJc3tjvIH41bYtydtp6eecVTn7KN79XYga2qL2vrZLuWNot/V5P4M+WCrWvbzXyc/KoUiqFdTOVMBQIUhRQhIJQKkKBUDQCqFNyBVBIdM1he0SuLGE2e9o1iwH51um2+y6TopyeSR1LpJ3RTU5gkEb2E3cZAG5tO7mud0noXP8J9G2gNXtdmLc2IN1ncCXEWHdfwXddEMWppKSN1M10cDPk42yZEapAAzJvmbb1n46pOKtG9nk8vfbrNHB04yzdr9m3vWw5DjehclBA6asmY06xbDFHznynoJO5otmd/vWqLrfKfiWHveIKpk+2YzWikhA5gf9ZwBHNzBHQuSvtc2JIvkSLEjouLm3vTsNUlOGlLXwsu4DEU4wlaP57wFUKqUHSDrCeJRQqhRdOOKjdUcFQxRZKUSoTOeoIGZ3+ggYagycoFW7pHdZUTnHrPvS5DFTNkZjFT2mbzXfFTtxqr7TP5z/iqM0erOyz+W5TN0breyVHluXlLS5ufQYyw+2Piigxyr7TP50nxSGO1nap/Ok+KbdGa7slR5TkxoxX9jqPKcp1t/mOUsNth/EAx2s7VP50nxSGPVnap/Pf8AiUo0Vr+xz+U/4JDRTEOx1HlP+Crrbw1PC7YeMSMY/WdrqPPk+KQ0gre2VHnv+KlGiWI9iqPKf8ExoliPYqjyn/BTrbxilhtsP4lrUYvUytLJKiaRhtrMdK57DY3FwTY5gFWYCyVVo9WQsMk1LPFG22s5zHNY25AFz3kDxWPAVWsdFN07dS1t1reWQgFk2Y5VgACrnAAAAE8gAHUM1jQszHovXOAIpJyCAQRG6xB3HciQNR01bTa77e5GMdre11PnS/FNuOVfa6jzpPxKUaK4h2Ofy3fBMaMV/ZKjy3fBFZ83EOWH2w8YkIxqr7VUefJ8UxjNX2qfz5PipRozX9jn8tyY0areyT+W5XnzcByw+2H8SFuMVXaZ/Of8U24vU9pm85/xUo0crOyT+W5Juj1Z2Wfy3KWfNxbnh9sf4kYxap7TN5z/AIr02JTuY5rp5nNIsWuleQRlkQTmpxgFZ2Wby3Iz4JVMY976eVrWtu5xjcAALXJTKSenHihFeVD9KdnHU9mxmq/5qhSVCvYs+SR1AKBTVCqDRGiUio3yAf5KDIo8USo3zdQULnk9Kg2MGTucBvKu6nHZHU0NK0lsURc6zT67y4u1nd17DqssSVGhcU7X7B0Fa+8ymM47LVmJ02ckcQjMhNzIA5xaXcecc+lYt0p61QolVGKirIbrd2UJQKSJVBFCgUygVQaPFAplApbLAUSkUSgkGjosfKm8f2Jv7wfwKdnK08f2Fn7wf6a5m1XVFSyTPEcMb5ZHbmMaXOPgOjikrD0tnm/kZ+pI6Q3lfk7Az95P9NXlDyrVE8jYoML2sjvVYydznHjYR7uKsNGuSyR+rJiEmybkdhEQZTwc/c3uF+8Lp+EYTTUUepTRMhYBziPWdbpe85u7yVz1JYeOUY3fF29Q4qfaTYFU1cjNesp4qZx9WJkxlePrHVAB4C6yoda5JsBvJ3BaXjmn9LT3ZCRUyj6BtE08XdP7N/BaTUYnieLyGJmu5lxeGIFsLOouzt4uKzZ143y8uWa+H6Lq1Vpz6kdsvjLzst50HHeUKkprshIqpB+jdaJve/p/ZB8FZ4Hp/UVkoiiw8u5zddzZCQxpObnHVsOnec1rf+wMPw0B+LVAlmtdtHTkukPUHbjbjzRxKs38oU0k1PTUETKGlM8LdWIDaPaXgHWdazbjqF+JTaOGxFbrakTEV+jqEdCEdOW1tpeCs3/jNnTuUY/kqs7ovvo1w9oXb+UT/wCrrPqxfexriIC5K31G30E7YaX3v0iIBfRWGH5CD/sxfyBfOwC71PKW4c5zSWubQktcN7SIbgjiiw+baOfp99Slxl7GWJWs49jdbSAuFC2eIfnIpXEAe03Vu3+I4rR9G+VKaPVZXs27cvlowGzD6zcmu/h4rpeD43T1jNelmbIB6wGT2fWac2+K7a+GqU/q8Vq58DzWFxNFyu4qW53T8mvdbjUqLlJY5wE1M5jT89j9Yjjqm1x3FZqsx6Z0e2w+GKujA5zWTlk7O+Mt/wDd+CWN6I0tVd+rsZT8+IAXPtN3O+3itHrtG62gftonOexu6aAuyHFu8D3jiuZTlB3krrnZY1/6fBYpWpP9OWx5rxd/ndqLyTlRe1xa+gDXNNnNdMQ5p6iCzJU/3pO7E3zz+BW5x2CsaGYpT7R1rNqYgGztHEjf9nAqwrtDHOaZsOmbWRdLRlUM4FvX7jwWpQqYOrk42e9v1uYGPwXSGEbbzW1JfH53IzA5UHdjb55/ArfE+UN1RBNB6KG7WN7NbbE6usLXtq5rR3xlpLXAtc02c1wIcD1EHcvXWgsHRTTUfN/JivG13lpeS+ChVCg+XqUD3krpOeMWSvkAUD5j0ZKhXoonPcGMaXOd6rWi7jwA6SqHQgiJzid6jKzejeBvran0cXaQyVz+gt1Wm1x9YtHisUymkcXhrHExgmSzSdQDeXdQyO9VpK7Wz3/wPUHZPj5FuUSkUSrCIygmUFQaKFEpFEqBoKzmH6JVVXB6RRhlQAS2SNrgJo3DeC12RFrEEHO+5YQDPfbidw9y6xyTy4fTymOKrfNVTtGuzZyMisy7uaC2xIzzJ911zYio6cdKOvhdd+wfSipPMxGlXJzUiWmbRxBzPRo2zSFwaxr4xqlzjxFtwO4rn9fTiKR8Ye2TUOqXsvqEj1tUneL3F+my+mNLsSpo6SV1TI6KIs1HvZra7dfmjVLASDnvC+b8Zp6aOS1HUGeI+qXRuY9vA3AB7x7gubCVZTVpdm7v1+w6tBLNGPKBTKBXUxACiUiiUEg0dC0c5NXyar66TZN/QxEGQ8HP3N8L94XTsHwmno49SniZC23OI9Z1ul7jm7vJWs4lppTU9xD8vIPon5MHi7p8LrU6rF63En7MOBad0TOZE3i65t4krDrYpyyee5ajaw3Rs5rSlaMdr5Xi7Leb7jenVNT3ZCRUSD6BtE08XdPhdaZUYliOKvMbBI5uXyUYLYW9V7m3i4q4bgtBQNbJiVU2R5F201OddzuBIztx5o4lYzFtPp3M2FBG2gpxcARAbYjrLhk3wz4lSnha9fXkuee0fLGYPB/9K05fuftq8rfczNnAqDDgH4rUB8lrtpIDrSO6g4jO3HmjiVi8X5Q53s2OHxsoKYXA2QG1I4vGTf2c+JWlucXEucS4kkucTdxJ3kk7yvALWoYGlS7LveYuL6Rr4h3nL47l76943OJJc4kkklxJuSTvJJ3lXuCf9VTfrEH3jVZgK9wbKppieieH+dq7ZfS+BnJ5o77ygn8mVXdF97GuLALsWnlTG7DqkNkYSRFYBwJ/5rOhchDT/qy8lW+pcD6B0I/+PL7n6RPALudWfya/9Rd9yVw9rT9i7RU1Uf8As+QbRl/QiLa4v/yTxR4dZ+Ajp19SnxfsfPzVc0lQ+J7ZInuje31XscWuHiFbtUgXr3nc+c3Oh6P8pkrLMrmbZv6aMBso+s31XeFvFdFwrGKerZr00rZB0gZPb9ZpzHivnkK4pal8LhJG90b27nscWuHiFw1sBTnnHJ+X47rHVTx045SzXmduxjRamqbu1djIfnxgC59pu5328Vp1fgNZQO2sZc5rd0sF7ge03eB7wocC5TpGWZWx7Vv6aMASjvbud4W8V0LDMcpalm0gnjeOnnar28HNNiFk18HOD6y71q542PR4LpeaWindftlz+Nxz86RU9WAzEqfXNrNqYgGTjiesfw4FYrFtErRPqqKoZVwMBc/MNniAzOs0/wCR4LoWM6OUNVc6zIpT8+JzRc+03c77eK0bGMAnow9wkEkZaQZIX5FptcObe4HvHFTDYmvRkop3Vx2JwfR+NhKcepOzdn22XZv8N0TTCoymUCvTniYlCrnC8PnqJWspmPfICCCzLUscnF25veVbFEOIzBI7jZA72y59BsbXzPo7A6Q7ON9S2L0rZhsskY3npAcQDa4BstU5S8IqJKYRUEbNmXufUxxgNlkzuLC1nZ3J6TYb1qmE6buoMPijjO2qZJHvftHOc2NmtaxzvchuQ6L36r4vTvHRWywzwyPDHwNEkWufk5GudrAjduLc+lY9LC1I1U+y7s7ZZbr5btnca868HTfBdufj6mqSMLSWuBaQSCCLEEbwR0KIpuRK2DOIygmUFQaKFEpFAqBoosno/jDqKV88bQ6TZPbFf1WucRziOmwvksYiUuUVJNMNNp3Rm49JpzT1VNUPdNHUc4F5u6OXWD9YE9BIzHiOm+AKZQKFRUb2Du3rPFAplAoWQBRKRRKCQaG0Jht0WhStCuLYDSPNapAEQEwEYDKhSAKgCqAjFsQCQCoAkAiAZ5rQpAO/3qgSRXYqUU9aKgd/vUobwQCbVd2BopakIJhAuA3qN0hPAKFaNyd0oG7P7FEXE71GEwoXZIYSARCQVgsYCQCoEkV2LdihUZUhUZVBIoVGVIVGVQaCUCmUCqDQSiUiiVBiIygmUFQaKFdD5MdEqWtL5pKjX1I5GSUxi1TG6RpaHa+sQ4W1rZb+qy54Vf0GOVNNG6KnmdCHSNe90Z1ZHFttUFwz1RbdxN7pNeE5w0YOz57/AAHUpKMrsk0nwmKiqH00dT6S6MkSvEWo1rh831jc9awxV3iNa+olfNKQZH2L3AW1iABewyubK0KKN7LS19pJWvkUKBTKBULR4oFMoFLYQCiUiiUEg0TtCkaEWhSAKRFSZ4BMBeASCYLbKhMBEBMIwCoCqFUK7wypbFKx8kbZYwbSRuFw9p3gdR6ir4A62WwWwaD4b6TXwsIuxhMkg6LMzF+92qPFbdLyeU1VG2egndG2RocwPu+Ig8fWb4krNcnmh81Cal9SGa7yxsZY7WaWDMkHIi5I3j5q46uLg6UtF56rPXmdFPDTVSN1ltOW49h5pqqeDoZI7V+qecz/AMSFjXy23ZldZ0/0IqK2qilpdm1ro9Wd73WDS0802AJJIcRl9HoWMl0GosOgfU10j6nZi+oPk43O+a0AG5JNhmbI4YynoRvm32LN3KeElpvYc0vdIJ1M20e5+q1msSQxgAYwdDQB0AIBdpzPWMJBEJBQWxhIIhIKwGSBJEJKxbKFRlSFRlQJFCoypCoyqDQSgUygVQaCUSkUSoMRGUEygqDRQolIolQNBRKSJQBFCgUygVQSPFAplApbCAUSkUSgkGi6aFI0INClAVoRIqAkFQJhGLZ4JBUCSMFiCQRC2jRrEsMpdWSphmmlFrEsYYmH2WF2fef4KpycVdJvgXCGk7XS4m68kbKtsT2yxFtK7nQPebO1jvDGnMsO++6/Xcrp8LLrnuFcomHyvjjD5Wvke1rGuhdm5xAAuLjeQt8inWHiNNzcpRtfj7mrSSUUk72JJ2Bcf5X2VjpGXiPoUYBa9ubTId7pLerbcL5ZnPOy63PPktBrOUfDSCA6WS9wQIXC/g+yLDOcZ6UY6VvcqsouNpOxxkJBZ7SSrw6Yl9HFNC8nNpawQO/ZDjqnuy4LAhb0JaSvZriZM46LtdPgMJBEJBEJYwkEQkFYDJAkiElYtlCoypCoyoEihUZUhUZVBoJQKZQKoNBKJSKJUGEZQVzTU7pXtjZYveQGAuDQSdwucrncti0X0Qmqat9PURSQ6kErjrtLRe2owg9POcDl9EpdSpGCbb1ZjYQcrJGplErIjBanZySugeyOK+0keNVgINrAn1jfKwusaUV09QVmiiJSRKEsoUCmUCqCR4oFMoFLYQCiUiiUEg0XzQmEGqQK0czEEgiEgjBPBJEKrnWFyjBKufYK3Lrm5VHOvmV4KxijYzuhEOviVGD0TB39wF/+FdO04049CYYKYg1Txv3tgafnEbi7qHieo8kwTE3Uku3jaDIGPEZO5jnDV1rdNgTkraWVz3Oe9xc5xJc5xu5xO8kpFTDqpVUpakvF5jo1dCDS1ncdDdMmYhFZ9mVMYG1jG53ts9k9XR7ieOYtDs6moj+hPM3+68hW9BVyQSMlicWSMN2uH+sxwU+KVvpE8k5aGGRwc5o3BxA1rcCbnxUo4f8ASqScdT9QKlXTgr60W4SCISC6zlGEgiEgoLYwkEQkFYDJAkiElYtlCoypCoyoEihUZUhUZVBoJQKZQKoNBKJSKJUGF3hOGuqZRG2SKLdrSSyNYxo688yeAX0bo5b0eJr521Dmsa18zbWkcBmbAmxXzGVtlBpnLRUEFLRkMl13yTyFoIF5CQwA77gNueo27uHF0J1dGz7dni76zsw9WML3N85WMPdVRMZHVwxbIlzqeV7WbY/NOsTlbOwItnvXEntIJB3gkGxBHvGRWf0zxptfNFUhuo8wMZMz6L2uduPS0giy14o8LTlCmk/C2r57yVZqUrooiUkSniyhQKZQKoJHigUygUthAKJSKJQSDRfNUiASBUTOZjCqFGCmCjuCIm2ZVs99z9ipLJc26Ao7okxkYW1kgTCjBVQUVyWJAkCowUwUVwWhhMFRgpgq7gNDCYKjBTBV3AZICkEAVUFS4slBTBUYKYKsBokBSBUYKqCruBYRKBK8SqEqXIkUJQK8SiSquMSKEokrxKJKq4aPFAlVJUZKlxiR4olVJQJVXDRQqhXiUCVTYdjyJXrqhKG4VjxVCvXRJQthHkSvFElDcJIoUSkSiUtsM//Z"
+                                    width="80">vs<img src=" https://media.istockphoto.com/vectors/flagunited-kingdom-flag-vector-id1211686337?k=20&m=1211686337&s=612x612&w=0&h=irewSfrd_QbxxmNWMpqpHrdf0pBVjnKoOJnkvonjz3g=" width="80"></td>
+                        
+                                <td>Eden Gardens Stadium , Kolkatta</td> 
+                            </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>11th Marcg 2011</td>
+                            <td><img src=" https://cdn.britannica.com/46/3346-004-D3BDE016/flag-symbolism-Pakistan-design-Islamic.jpg" width=80>
+                               v/s <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/1200px-Flag_of_South_Africa.svg.png" width="80"> </td>
+                            <td>Rajeev Gandhi Stadium , Hyderabad</td> 
+                        </tr>
+                    </tbody>
+                    </tbody>
+                </table>
+<h3> Map View for Venue Detailes</h3>
+                <figure>
+                    <img src="https://www.mapsofindia.com/cricket/2011-cricket-world-cup/2011-cricket-world-cup-stadiums-map.jpg">
+              <figcaption> Map for Venue Detailes</figcaption>  </figure>
+            </article>
+
+
+        </main>
+        <footer class="footer">
+            <p> Contact Us on mail: iccwc2011@yahoo.com &copy; All Copy Rights Received. </p>
+        </footer>
+    </div>
+</body>
+
+</html>
